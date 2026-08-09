@@ -20,7 +20,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f
       with:
-        cache: npm
+        cache: false
         node-version: "24"
     - name: Set up Go
       uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f

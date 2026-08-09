@@ -8,3 +8,18 @@
     }
   }
 }
+      "args": [
+        "aw",
+        "mcp-server"
+      ],
+      "tools": [
+        "compile",
+        "audit",
+        "logs",
+        "inspect",
+        "status",
+        "audit-diff"
+      ]
+    }
+  }
+}
